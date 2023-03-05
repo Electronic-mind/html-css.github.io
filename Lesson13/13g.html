@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13e</title>
+    <style>
+      div {
+        font-family: arial;
+      }
+      .container {
+        display: flex;
+        width: 420px;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+
+      .flexbox {
+        display: flex;
+        height: 70px;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .profile-picture-container {
+        margin-right: 10px;
+      }
+
+      .profile-picture {
+        height: 60px;
+        width: 60px;
+        object-fit: cover;
+        border-radius: 30px;
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+      }
+
+      .username {
+        color: gray;
+      }
+
+      .tweet {
+        flex: 1;
+      }
+
+      .name {
+        font-weight: bold;
+        margin-right: 5px;
+      }
+
+      .content {
+        line-height: 20px;
+        margin-bottom: 15px;
+      }
+
+      .video-preview {
+        display: flex;
+        align-items: center;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(220, 220, 220);
+        border-radius: 15px;
+        overflow: hidden;
+      }
+
+      .video-picture {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(220, 220, 220);
+        margin-right: 10px;
+      }
+
+      .video-info {
+        flex: 1;
+      }
+
+      .youtube-link {
+        color: rgb(111, 111, 111);
+        margin-bottom: 3px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container" >
+      <div class="profile-picture-container">
+        <img class="profile-picture" src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-12/cat.jpg?raw=true" alt="">
+      </div>
+      <div class="tweet">
+        <div class="header">
+          <div class="name">supersimple.dev</div>
+          <div class="username">@SuperSimpleDev</div>
+        </div>
+        <div class="content">What is backend web development? A complete overview. New video is up!</div>
+        <div class="video-preview">
+          <div class="video-picture"></div>
+          <div class="video-info">
+            <div class="youtube-link">youtube.com</div>
+            <div class="video-title">Backend web development - a complete overview (2021)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
