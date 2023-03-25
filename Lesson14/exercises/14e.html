@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>14e</title>
+        <style>
+            body {
+                height: 3000px;
+            }
+
+            button {
+                border: none;
+                padding: 8px 12px;
+                border-radius: 6px;
+                font-weight: bold;
+            }
+
+            .header {
+                background-color: white;
+                border-bottom: 1px solid blueviolet;
+                position: fixed;
+                height: 50px;
+                left: 0;
+                right: 0;
+                top: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 50px;
+
+            }
+
+
+            .add-friend-button {
+                background-color: rgb(44, 129, 255);
+                color: white;
+                margin-right: 10px;
+            }
+
+            .left-section {
+                display: flex;
+                align-items: center;
+            }
+
+            .profile-picture {
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+                border-radius: 20px;
+                margin-right: 10px;
+            }
+
+            .name {
+                font-family: Arial;
+                font-weight: bold;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-section">
+                <img class="profile-picture" src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-14/cat.jpg?raw=true" alt="">
+                <div class="name">Oliver Cat</div>
+            </div>
+            <div class="right-section">
+                <button class="add-friend-button">Add Friend</button>
+                <button class="message-button">Message</button>
+            </div>
+        </div>
+    </body>
+</html>
